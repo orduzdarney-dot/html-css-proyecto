@@ -1,0 +1,209 @@
+
+
+body {
+    background-color:#faf6ff
+    
+}
+
+header {
+    text-align: center;
+    background-color: rgba(30, 30, 60, 0.85);
+    padding: 10px 0;
+    color: #e0d7ff;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: #c9b8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    transition: color 0.3s, font-size 0.2s;
+}
+
+ul a:hover {
+    color: #ff7eb3;
+    font-size: 25px;
+}
+
+#sobre-mi {
+    display: flex;
+    border-style: groove;
+    width: 85%;
+    margin: 40px 40px auto auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(100, 80, 180, 0.4);
+    border-color: #6636cc;
+    background-color:#e4dff5; 
+    background-size: 100%;
+}
+
+#presentacion {
+    text-align: center;
+    width: 40%;
+    margin: 0 20px;
+    color: #9967e4;
+}
+
+#imagen-yo {
+    margin: 45px 700px;
+    justify-content: right;
+}
+
+#sobre-mi img {
+    border-radius: 50%;
+}
+
+#proyectos {
+    border-style: groove;
+    width: 85%;
+    margin: 40px 40px auto auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(100, 80, 180, 0.4);
+    background-color: #dcd0ff;
+    border-color: #7c5cbf;
+    display: flex;
+    font-size: 20px;
+    gap: 20%;
+}
+
+.proyectos-trabajados {
+    text-align: center;
+    width: 20%;
+    border-style: groove;
+    margin-bottom: 20px;
+    border-color: #7c5cbf;
+    text-decoration: none;
+}
+
+#titulo-p {
+    text-align: center;
+}
+
+#proyectos img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+#proyectos a {
+    text-decoration: none;
+    color: #4a2d8f;
+}
+
+#proyectos a:hover {
+    color: #d63a8a;
+    font-size: 22px;
+}
+
+img:hover {
+    border-color: #d63a8a;
+}
+
+#Trayectoria {
+    border-style: groove;
+    width: 85%;
+    margin: 40px 40px auto auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(100, 80, 180, 0.4);
+    border-color: #7c5cbf;
+    text-align: center;
+    background-color: #ede8ff;
+}
+
+#Habilidades {
+    border-style: groove;
+    width: 85%;
+    margin: 40px 40px auto auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(100, 80, 180, 0.4);
+    border-color: #7c5cbf;
+    text-align: center;
+    background-color: #ede8ff;
+}
+
+#Conocimientos {
+    border-style: groove;
+    width: 85%;
+    margin: 40px 40px auto auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(100, 80, 180, 0.4);
+    border-color: #7c5cbf;
+    text-align: center;
+    background-color: #ede8ff;
+}
+
+#Formulario {
+    border-style: groove;
+    width: 85%;
+    margin: 40px 40px auto auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(100, 80, 180, 0.4);
+    border-color: #7c5cbf;
+    background-color: #ede8ff;
+    text-align: center;
+}
+
+#Titulo-f {
+    text-align: center;
+}
+
+button:hover {
+    border-color: #d63a8a;
+}
+
+#tabla {
+    border-color: #4a2d8f;
+    background-color: #dcd0ff;
+}
+
+#cabeza-tabla {
+    border-color: #4a2d8f;
+    background-color: #c5b3f7;
+}
+
+
+#collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 0 30%;
+    gap: 0;
+}
+
+#collage img {
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+#img1 { height: 300px; }
+#img2 { height: 340px; }
+#img3 { height: 290px; }
+#img4 { height: 480px; }
+#img5 { height: 350px; }
+#img6 { height: 490px; }
+
+#collage img:hover {
+    transform: scale(1.2);
+}
